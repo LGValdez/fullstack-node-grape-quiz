@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Temporarily disable migrations on repository to be able to start fresh
+vine-shoot/src/migrations/*.ts
